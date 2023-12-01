@@ -119,6 +119,246 @@ li a:hover{
     font-size: 1.1rem;
 }
 
+/*---anthony---*/
+
+.Caja-article{
+    padding-top: 2rem;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.Titulo{
+    color: var(--blue_03, #356EAD);
+    font-family: Helvetica;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    margin-bottom: 30px;
+}
+
+.caja1{
+    width: 100%;
+    display: flex;
+    padding-bottom: 1.5rem;
+}
+
+.content-temp-1{
+    flex: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.content-temp-2{
+    flex: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.caja1 img{
+    padding-right: 1.3rem;
+    
+}
+
+.letras h3{
+    margin-top: 3px;
+    color: var(--Blue_01, #1F3F68);
+    font-family: Helvetica;
+}
+
+.letras p{
+    margin-top: 0.65rem;
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Arial;
+}
+
+.letras h5{
+    margin-top: 2.81rem;
+    font-size: 0.87rem;
+    color: var(--Blue_01, #1F3F68);
+    font-family: Helvetica;
+    
+}
+
+.letras h6{
+    margin-top: 0.62rem;
+    font-size: 0.81rem;
+    color: rgba(0, 0, 0, 0.40);
+    font-family: Arial;
+}
+/*
+.caja2{
+    width: 100%;
+    height: 200px;
+    margin-top: 40px;
+    
+}
+
+.caja3{
+    width: 100%;
+    height: 200px;
+    margin-top: 40px;
+    
+}
+
+.caja4{
+    width: 100%;
+    height: 200px;
+    margin-top: 40px;
+
+}
+
+.caja5{
+    width: 100%;
+    height: 200px;
+    margin-top: 40px;
+     
+}
+
+
+
+.caja2 img{
+    float: left;
+    padding-right: 20px;
+    height: 192px;
+}
+
+.caja3 img{
+    float: left;
+    padding-right: 20px;
+    height: 192px;
+}
+
+.caja4 img{
+    float: left;
+    padding-right: 20px;
+    height: 192px;
+}
+
+.caja5 img{
+    float: left;
+    padding-right: 20px;
+    height: 192px;
+}
+
+
+
+
+.letras2 h3{
+    margin-top: 3px;
+    color: var(--Blue_01, #1F3F68);
+    font-family: Helvetica;
+}
+
+.letras2 p{
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Arial;
+}
+
+.letras2 h5{
+    margin-top: 45px;
+    font-size: 14px;
+    color: var(--Blue_01, #1F3F68);
+    font-family: Helvetica;
+    
+}
+
+.letras2 h6{
+    margin-top: 10px;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.40);
+    font-family: Arial;
+}
+
+.letras3 h3{
+    margin-top: 3px;
+    color: var(--Blue_01, #1F3F68);
+    font-family: Helvetica;
+}
+
+.letras3 p{
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Arial;
+}
+
+.letras3 h5{
+    margin-top: 45px;
+    font-size: 14px;
+    color: var(--Blue_01, #1F3F68);
+    font-family: Helvetica;
+    
+}
+
+.letras3 h6{
+    margin-top: 10px;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.40);
+    font-family: Arial;
+}
+
+.letras4 h3{
+    margin-top: 3px;
+    color: var(--Blue_01, #1F3F68);
+    font-family: Helvetica;
+}
+
+.letras4 p{
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Arial;
+}
+
+.letras4 h5{
+    margin-top: 45px;
+    font-size: 14px;
+    color: var(--Blue_01, #1F3F68);
+    font-family: Helvetica;
+    
+}
+
+.letras4 h6{
+    margin-top: 10px;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.40);
+    font-family: Arial;
+}
+
+.letras5 h3{
+    margin-top: 3px;
+    color: var(--Blue_01, #1F3F68);
+    font-family: Helvetica;
+}
+
+.letras5 p{
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Arial;
+}
+
+.letras5 h5{
+    margin-top: 45px;
+    font-size: 14px;
+    color: var(--Blue_01, #1F3F68);
+    font-family: Helvetica;
+    
+}
+
+.letras5 h6{
+    margin-top: 10px;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.40);
+    font-family: Arial;
+}
+
+*/
+
 /*----footer---*/
 
 footer{
@@ -251,6 +491,15 @@ footer{
     .card-links-page{
         flex-direction: column;
     }
+
+    .caja1{
+        flex-direction: column;
+    }
+
+    .content-temp-1{
+        padding-bottom: 2rem;
+    }
+
 }
 
 @media screen and (min-width:425px) {
@@ -271,7 +520,22 @@ footer{
     .card-links-page{
         flex-direction: column;
     }
+
+    .caja1{
+        flex-direction: column;
+    }
+
+    .content-temp-1{
+        flex: 100%;
+    }
     
+    .content-temp-2{
+        flex: 100%;
+    }
+    
+    .content-temp-1{
+        padding-bottom: 2rem;
+    }
 }
 
 @media screen and (min-width:830px) {
@@ -288,6 +552,15 @@ footer{
         flex-direction: row;
     }
     
+    .caja1{
+        flex-direction: row;
+        
+    }
+
+    .content-temp-1{
+        flex: 40%;
+    }
+
 }
 
 @media screen and (min-width:1200px) {
@@ -299,8 +572,6 @@ footer{
         flex-direction: row;
         width: 94%;
     }
-
-    
 
     .card-links-page{
         flex-direction: row;
