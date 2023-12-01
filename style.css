@@ -117,9 +117,123 @@ li a:hover{
     font-size: 1.1rem;
 }
 
+/*----footer---*/
+
+footer{
+    background-color: #316099;
+    color: #fff;
+}
+
+.content-footer{
+    max-width: 941px;
+    margin: 0 auto;
+    padding-top: 5rem;
+    padding-bottom: 6rem;
+}
+
+.card-gen{
+    display: flex;
+    width: 100%;
+}
+
+.card-inf-tdl{
+    flex: 49%;
+}
+
+.card-inf-tdl h2{
+    font-size: 2.25rem;
+    padding-bottom: 1.3rem;
+}
+
+.card-inf-tdl p{
+    font-size: 1rem;
+    padding-bottom: 2rem;
+}
+
+.card-inf-more{
+    flex: 49%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card-inf-more a{
+    text-decoration: none;
+    color: #fff;
+    padding: 1.2rem 3rem;
+    background-color: #5a98d0;
+    transition: all ease-in 0.2s;
+}
+
+.card-inf-more a:hover{
+    border: rgb(4, 0, 251) solid 3px;
+}
+
+.card-links-page{
+    display: flex;
+}
+
+.card-links-page p{
+    font-size: 1rem;
+    padding-bottom: 1.1rem;
+}
+
+
+.content-link-gr1{
+    display: flex;
+    width: 66%;
+}
+
+.content-g1-lk{
+    flex: 50%;
+    margin: 2rem;
+}
+
+.subtitulo-link{
+    padding-bottom: 1.1rem;
+}
+
+.ctn-titulo-sect-lk{
+    display: flex;
+    
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.ctn-titulo-sect-lk h2{
+    padding-left: 1rem;
+}
+
+.content-link-gr2{
+    width: 33%;
+    padding: 2rem;
+}
+
+.info-copy h2{
+    font-size: 1rem;
+    padding-left: 2rem;
+    color: #ffffff7d;
+}
+
+
 @media screen and (max-width:424px) {
     html{
         font-size: 8px;
+    }
+
+    .card-gen{
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .content-link-gr1{
+        flex-direction: column;
+    }
+
+    .card-links-page{
+        flex-direction: column;
     }
 }
 
@@ -127,16 +241,52 @@ li a:hover{
     html{
         font-size: 10px;
     }
+
+    .card-gen{
+        flex-direction: row;
+        width: 94%;
+        margin: 0 auto;
+    }
+
+    .content-link-gr1{
+        flex-direction: column;
+    }
+
+    .card-links-page{
+        flex-direction: column;
+    }
+    
 }
 
 @media screen and (min-width:830px) {
     html{
         font-size: 13px;
     }
+    .card-gen{
+        flex-direction: row;
+        width: 94%;
+        margin: 0 auto;
+    }
+    
+    .content-link-gr1{
+        flex-direction: row;
+    }
+    
 }
 
 @media screen and (min-width:1200px) {
     html{
         font-size: 16px;
+    }
+
+    .card-gen{
+        flex-direction: row;
+        width: 94%;
+    }
+
+    
+
+    .card-links-page{
+        flex-direction: row;
     }
 }
