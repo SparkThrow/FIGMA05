@@ -412,9 +412,6 @@ footer{
     color: #ffffff7d;
 }
 
-
-
-
 @media screen and (max-width:424px) {
     html{
         font-size: 8px;
@@ -559,8 +556,6 @@ footer{
     .content-temp-1{
         flex: 40%;
     }
-
-
 
     .cards-popular-1{
         flex-direction: row;
